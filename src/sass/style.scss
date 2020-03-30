@@ -1,0 +1,255 @@
+$primary-color:  #243665;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+nav {
+    background-color: $primary-color;
+    height: 10vh;
+    color:white;
+
+    a.navbar-brand{
+        color: white;
+        font-weight:500 ;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+    }
+
+  
+    ul{
+
+        
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: space-evenly;
+        
+        li{
+            padding-left: 20px;
+
+            a{
+                color: white;
+                font-size: 1.3rem;
+
+                &:link{
+                    color:burlywood;
+                }
+                &:hover{
+                    color:yellow;
+                    transform: 1.5;
+                }
+
+
+            }
+
+           
+        }
+
+
+    }
+
+
+
+
+
+}
+
+
+#secondsection{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    background-color: chartreuse;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('../images/imagen.jpg')  ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h1{
+        letter-spacing: 13px;
+        font-size: 5rem;
+        color: white;
+    }
+
+    p{
+        font-size: 1.5rem;
+        color:white;
+    }
+
+
+    a{
+        border-radius: 40px;
+        font-size: 1.5rem;
+        
+    }
+
+
+
+
+    
+
+
+
+    
+}
+
+
+
+#fourthsection{
+    background-color: #243665;
+    height: 10vh;
+
+    h2{
+        color:white;
+        padding-top: 20px;
+    }
+
+}
+
+
+#fifthsection{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        color: white;
+        font-weight: bolder;
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+
+    h3{
+        color: white;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+
+    p{
+        color:white;
+        font-size: 1.2rem;
+    }
+
+    a{
+        border-radius: 40px;
+        font-size: 1.2em;
+        background-color: $primary-color;
+        color:white;
+    }
+}
+
+
+
+
+
+
+// blog
+
+
+#blog{
+    height: 70vh;
+
+    .contenedor{
+        height: 70vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            font-size: 2rem;
+        }
+
+        span{
+            font-size: 1.2rem;
+        }
+    }
+
+
+
+
+
+    .contenedor2{
+        
+        background-image: url(../images/imagen5.jpeg);
+        height: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        a{
+            font-size: 1.5rem;
+            border-radius: 40px;
+        }
+
+        
+    }
+    
+   
+   
+
+}
+
+
+
+
+#sextaseccion{
+    height: 70vh;
+    background-image: url(../images/imagen10.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    .mensaje{
+       
+        
+      
+        padding: 10px;
+       
+
+        h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        hr{
+            background-color: white;
+        }
+
+        p{
+            color:white;
+            font-size: 1.2rem;
+        }
+    }
+}

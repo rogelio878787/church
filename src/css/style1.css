@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+nav {
+  background-color: #243665;
+  height: 10vh;
+  color: white; }
+  nav a.navbar-brand {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.4rem; }
+  nav ul {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly; }
+    nav ul li {
+      padding-left: 20px; }
+      nav ul li a {
+        color: white;
+        font-size: 1.3rem; }
+        nav ul li a:link {
+          color: burlywood; }
+        nav ul li a:hover {
+          color: yellow;
+          transform: 1.5; }
+
+#secondsection {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: chartreuse;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/imagen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #secondsection h1 {
+    letter-spacing: 13px;
+    font-size: 5rem;
+    color: white; }
+  #secondsection p {
+    font-size: 1.5rem;
+    color: white; }
+  #secondsection a {
+    border-radius: 40px;
+    font-size: 1.5rem; }
+
+#fourthsection {
+  background-color: #243665;
+  height: 10vh; }
+  #fourthsection h2 {
+    color: white;
+    padding-top: 20px; }
+
+#fifthsection {
+  height: 50vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #fifthsection h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: 2px; }
+  #fifthsection h3 {
+    color: white;
+    font-weight: lighter;
+    font-size: 2rem; }
+  #fifthsection p {
+    color: white;
+    font-size: 1.2rem; }
+  #fifthsection a {
+    border-radius: 40px;
+    font-size: 1.2em;
+    background-color: #243665;
+    color: white; }
+
+#blog {
+  height: 70vh; }
+  #blog .contenedor {
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #blog .contenedor h3 {
+      font-size: 2rem; }
+    #blog .contenedor span {
+      font-size: 1.2rem; }
+  #blog .contenedor2 {
+    background-image: url(../images/imagen5.jpeg);
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    #blog .contenedor2 h2 {
+      color: white;
+      font-weight: bolder;
+      font-size: 3rem;
+      letter-spacing: 2px; }
+    #blog .contenedor2 a {
+      font-size: 1.5rem;
+      border-radius: 40px; }
+
+#sextaseccion {
+  height: 70vh;
+  background-image: url(../images/imagen10.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  #sextaseccion .mensaje {
+    padding: 10px; }
+    #sextaseccion .mensaje h2 {
+      color: white;
+      font-weight: bolder;
+      font-size: 3rem;
+      letter-spacing: 2px; }
+    #sextaseccion .mensaje hr {
+      background-color: white; }
+    #sextaseccion .mensaje p {
+      color: white;
+      font-size: 1.2rem; }
